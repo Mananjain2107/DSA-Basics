@@ -70,7 +70,7 @@ public class Basics {
         }
     }
 
-     // a) Inorder Traversal
+     // b) Inorder Traversal
         // TC-> O(N) , SC->O(height of the tree)[in worst case like skewed tree the height of the tree can be n]
     public static void iterativeInorder(Node root,ArrayList<Integer> ls){
         Stack<Node> st = new Stack<>();
